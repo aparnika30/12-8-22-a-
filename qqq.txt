@@ -1,0 +1,42 @@
+1.#include <stdio.h>
+
+
+int main() 
+{
+   
+    int n;
+   
+    int i,j;
+    
+    scanf("%d",&n);
+    
+    for(n=1;n<=5;n++)
+  
+    {
+      
+       printf("A\n");
+        
+       printf("B\tC\n");
+    
+       printf("D\tE\tF\n");
+         
+       printf("G\tH\tI\tJ\n");
+   
+       printf("K\tL\tM\tN\tO\n");
+  
+       break;
+     
+    }
+
+   
+    return 0;
+
+}
+
+output:-
+1
+A
+B	C
+D	E	F
+G	H	I	J
+K	L	M	N	O
